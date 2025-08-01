@@ -41,7 +41,7 @@ export default function TabOneScreen() {
       />
       <Button 
         title='ENVIAR'
-        onPress={() => {alert(nome + ' ' + sobrenome + '  ' + cpf + '  ' + telefone)}}
+        onPress={() => {alert(nome + ' ' + sobrenome + '  ' + cpf + '  ' + telefone + '  ' + email)}}
       />
     </View>
   );
